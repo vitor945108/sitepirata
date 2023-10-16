@@ -7,10 +7,10 @@ function Equipe({listp,titulo}) {
      
           return(
                     <>
-                    <h1>{titulo} </h1>
+                    <h1>titulo </h1>
                     <div className="div-exibe">
                               {listp.map((p)=>
-                              <Exibirperfil nome={p.nome} img={p.imagem} ano={p.ano} texto={p.texto}/>   )  }
+                              <Exibirperfil nome={p.nome} img={p.imagem} ano={p.ano}/>   )  }
                     </div>
                     </>
           )  
