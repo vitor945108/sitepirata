@@ -14,3 +14,10 @@ img{
           text-align: center;
           
 }
+img :hover{
+          opacity: 30PX;
+
+}
+h1{
+          color: aliceblue;
+}

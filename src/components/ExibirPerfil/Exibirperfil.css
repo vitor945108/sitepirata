@@ -1,0 +1,31 @@
+.perfil{color: aliceblue;
+font-size: smaller;
+font-family: Arial, Helvetica, sans-serif;
+}
+.des{
+          color: #dfd9d9;
+          
+}
+#container {
+          display: inline-block;
+          position: relative;
+
+        }
+        
+        #container figcaption {
+          position: absolute;
+          left: 1px;
+          font-size: 15px;
+          color: white;
+          background-color: red;
+          border-radius: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          
+        }
+ img :hover{
+          transition: 0,3;
+          opacity: 0.4;
+ }
+          
+        
+        
